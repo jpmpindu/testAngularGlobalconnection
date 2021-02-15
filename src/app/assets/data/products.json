@@ -1,0 +1,10 @@
+[
+
+  {"id": 1, "name": "Pineapple", "quantity": 1,"isEven": false},
+  {"id": 2, "name": "Apple", "quantity": 5, "isEven": false},
+  {"id": 3, "name": "Banana", "quantity": 2, "isEven": false},
+  {"id": 4, "name": "Melon", "quantity": 9, "isEven": false},
+  {"id": 5, "name": "Strawberry", "quantity": 8, "isEven": false}
+
+
+]
