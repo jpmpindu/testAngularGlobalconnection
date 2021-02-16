@@ -8,6 +8,7 @@ import { ListProductComponent } from './list-product/list-product.component';
 import { HttpClientModule } from '@angular/common/http';
 import { ProductService } from './product.service';
 import { RouterModule } from '@angular/router';
+import { DetailProduitComponent } from './detail-produit/detail-produit.component';
 
 
 @NgModule({
@@ -15,6 +16,7 @@ import { RouterModule } from '@angular/router';
     AppComponent,
     HeaderComponent,
     ListProductComponent,
+    DetailProduitComponent,
 
   ],
   imports: [

@@ -1,0 +1,19 @@
+<div class="container">
+  <h2> Details du Produit</h2>
+  <hr class="shadow">
+  <div class="row mt-5">
+    <div class="col">
+      <h4>
+        Product Name : {{product?.name}}
+      </h4>
+      <h4>
+        Product Quantity : {{product?.quantity}}
+      </h4>
+    </div>
+    <div class="col">
+      <input type="number" #change><br><br>
+      <button type="submit" class="btn btn-success btn-sm" (click)="ModifyQuantity(change.value)">Changer la quantity</button>
+    </div>
+  </div>
+
+</div>
